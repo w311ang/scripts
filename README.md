@@ -4,3 +4,6 @@
 ```bash
 pkg install -y wget && wget -O ssrspeed-install.sh https://raw.githubusercontent.com/w311ang/scripts/master/ssrspeed/install.sh && bash ssrspeed-install.sh
 ```
+## [转MP3](2mp3)
+```bash
+pkg install -y ffmpeg wget && wget -O 2mp3 -P /usr/bin/ https://raw.githubusercontent.com/w311ang/scripts/master/2mp3 && chmod 700 /usr/bin/
