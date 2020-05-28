@@ -1,3 +1,3 @@
 # RZ的脚本合集
-## Termux一键安装SSRSpeed
-## 芥子空间一键签到
+## [芥子空间一键签到](jiezi/README.md)
+## [Termux一键安装SSRSpeed](ssrspeed/README.md)
