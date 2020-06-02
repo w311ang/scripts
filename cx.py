@@ -1,4 +1,4 @@
-puid=''#填puid，超星云盘cookie
+puid=''#填puid，cookie
 token=''#填token，https://pan-yz.chaoxing.com/api/token/uservalid
 from cmd2 import Cmd
 class cx(Cmd):
