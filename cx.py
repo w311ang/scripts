@@ -1,5 +1,5 @@
-puid=''#填puid
-token=''#填token
+puid=''#填puid，超星云盘cookie
+token=''#填token，https://pan-yz.chaoxing.com/api/token/uservalid
 from cmd2 import Cmd
 class cx(Cmd):
   data=[]
