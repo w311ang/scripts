@@ -10,7 +10,7 @@ pkg install -y ffmpeg wget && wget -O 2mp3 -P /usr/bin/ https://raw.githubuserco
 ```
 ## [智慧零钱计算器](hq.py)
 ## [超星云盘分享链接解析](cx.py)
-## [m8u8转MP4](2mp4)
+## [m3u8转MP4](2mp4)
 ```bash
 pkg install -y ffmpeg wget && wget -O 2mp4 -P /usr/bin/ https://raw.githubusercontent.com/w311ang/scripts/master/2mp4 && chmod 700 /usr/bin/2mp4
 ```
