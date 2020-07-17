@@ -1,11 +1,11 @@
 # 芥子空间一键签到
-## [Python↗](/sign.py)（推荐）
+## [Python↗](./sign.py)（推荐）
 ### 特性
 * 自动读取当前板块列表，无需自行加板
 * 可挂腾讯云云函数定时签到
 ### 食用方法
 定义`key`环境变量为你抓包得到的`_key`参数
-## ~~[Shell↗](/sign.sh)~~（已弃坑）
+## ~~[Shell↗](./sign.sh)~~（已弃坑）
 [参数来源(芥子空间API)↗](https://api.bbs.lieyou888.com/category/list/ANDROID/1.0)
 ### 特性
 * 可指定签到板块
