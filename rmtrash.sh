@@ -5,5 +5,5 @@ sudo chmod +x /usr/local/bin/rmtrash /usr/local/bin/rmdirtrash
 echo "alias rm='rmtrash'
 alias rmdir='rmdirtrash'" >> ~/.bashrc
 echo "alias rm='rmtrash'
-alias rmdir='rmdirtrash'" >> /root/.bashrc # 为sudo提供回收站
+alias rmdir='rmdirtrash'" >> /root/.bashrc #为sudo提供回收站
 source ~/.bashrc
