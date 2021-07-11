@@ -14,3 +14,8 @@ pkg install -y ffmpeg wget && wget -O 2mp3 -P /usr/bin/ https://raw.githubuserco
 ```bash
 pkg install -y ffmpeg wget && wget -O 2mp4 -P /usr/bin/ https://raw.githubusercontent.com/w311ang/scripts/master/2mp4 && chmod 700 /usr/bin/2mp4
 ```
+
+## [一键安装`rmtrash`](rmtrash.sh)
+```bash
+curl https://raw.githubusercontent.com/w311ang/scripts/master/rmtrash.sh | bash
+```
