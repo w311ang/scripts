@@ -5,3 +5,4 @@ sudo chmod +x /usr/local/bin/rmtrash /usr/local/bin/rmdirtrash
 echo "alias rm='rmtrash'
 alias rmdir='rmdirtrash'
 alias sudo='sudo '" >> ~/.bashrc
+source ~/.bashrc
