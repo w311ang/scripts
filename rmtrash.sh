@@ -1,3 +1,4 @@
+set -e
 sudo apt install trash-cli
 sudo curl -o /usr/local/bin/rmdirtrash https://raw.githubusercontent.com/PhrozenByte/rmtrash/master/rmdirtrash
 sudo curl -o /usr/local/bin/rmtrash https://raw.githubusercontent.com/PhrozenByte/rmtrash/master/rmtrash
