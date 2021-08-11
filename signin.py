@@ -1,8 +1,6 @@
 import itchat, time, random, _thread, os, pickle
 from itchat.content import *
 
-realname='王博文'
-
 def refresh():
     while True:
         itchat.get_friends(update=True)
