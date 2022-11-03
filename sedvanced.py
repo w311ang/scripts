@@ -17,3 +17,5 @@ content=re.sub(pattern, replaceto, content, count=count)
 
 with open(filepath) as f:
   f.write(content)
+
+print(filepath)
