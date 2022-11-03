@@ -11,8 +11,6 @@ def replace(pattern,replaceto,filepath,count):
   with open(filepath,'w') as f:
     f.write(content)
 
-  print(filepath)
-
 if __main__=='__file__':
   pattern=sys.argv[1]
   replaceto=sys.argv[2]
@@ -23,3 +21,4 @@ if __main__=='__file__':
     count=0
 
   replace(pattern,replaceto,filepath,count)
+  print(filepath)
