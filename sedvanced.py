@@ -2,7 +2,7 @@
 import sys
 import re
 
-def replace(pattern,replaceto,filepath,count=0):
+def sed(pattern,replaceto,filepath,count=0):
   with open(filepath) as f:
     content=f.read()
 
@@ -20,5 +20,5 @@ if __main__=='__file__':
   except IndexError:
     count=0
 
-  replace(pattern,replaceto,filepath,count=count)
+  sed(pattern,replaceto,filepath,count=count)
   print(filepath)
