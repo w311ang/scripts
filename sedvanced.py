@@ -11,7 +11,7 @@ def sed(pattern,replaceto,filepath,count=0):
   with open(filepath,'w') as f:
     f.write(content)
 
-if __file__=='__main__':
+if __name__=='__main__':
   pattern=sys.argv[1]
   replaceto=sys.argv[2]
   filepath=sys.argv[3]
